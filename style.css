@@ -1,7 +1,8 @@
 body {
   background-image: url("images/bruna.jpg");
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
+
 h2 {
   background: #E0C074;
   margin: 0;
@@ -17,7 +18,7 @@ h2 span {
 
 input {
   font-size: 20px;
-  background-color: rgb(249, 244, 244);
+  background-color: #f9f4f4;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -31,14 +32,15 @@ ul {
 }
 
 li {
-    border-top: 1px solid #E0C074;
-    color: goldenrod;
-    height: 50px;
-    line-height: 50px;
-    font-size: 20px;
-    padding-left: 10px;
+  border-top: 1px solid #E0C074;
+  color: goldenrod;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
 }
-li:hover span{
+
+li:hover span {
   width: 50px;
   opacity: 1;
 }
@@ -62,13 +64,13 @@ li span {
 #shopping-list {
   width: 500px;
   margin: 100px auto;
-  background: rgb(249, 244, 244);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: #f9f4f4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
 #shopping-list:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 input:focus {
@@ -77,3 +79,4 @@ input:focus {
   outline: none;
 }
 
+/*# sourceMappingURL=style.css.map */
